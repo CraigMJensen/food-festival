@@ -1,4 +1,4 @@
-dateConverter = function (UNIX_timestamp) {
+const dateConverter = function (UNIX_timestamp) {
   const a = new Date(UNIX_timestamp);
   const months = [
     'Jan',
